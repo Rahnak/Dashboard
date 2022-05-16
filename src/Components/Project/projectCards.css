@@ -1,0 +1,16 @@
+.maincards{
+    display: flex;
+    flex: 3;
+    margin-top: 20px;
+}
+.leftcard{
+    flex: 1;
+border-radius: 20px;
+background-color: rgb(240, 186, 156);
+}
+.rightcard{
+    flex: 1;
+    margin-left: 20px;
+border-radius: 20px;
+background-color: rgb(146, 199, 232);
+}
