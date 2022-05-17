@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `cd front-end` (my react folder)
+### `npm install` (so you can get all the dependencies )
 ### `npm start`
 
 Runs the app in the development mode.\
