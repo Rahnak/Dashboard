@@ -28,10 +28,8 @@ export default class AdminLogin extends Component {
         <div className="card" >
           <div className="row g-0">
             <div className="col-md-6 col-lg-5 d-none d-md-block">
-            <img src={require('./download.png')} 
-                alt="download"
-                className="card-img-top" 
-              />
+            
+               
             </div>
             <div className="col-md-6 col-lg-7 d-flex align-items-center">
               <div className="card-body p-4 p-lg-5 text-black">

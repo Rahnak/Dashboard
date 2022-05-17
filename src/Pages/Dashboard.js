@@ -7,7 +7,6 @@ import Charts from "../Components/Charts/Chart"
 import "./Dashboard.css";
 
 
-
 export default function Dashboard() {
   return <div className="dashboard">
     <div className="maindiv">
