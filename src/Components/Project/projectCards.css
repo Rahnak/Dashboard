@@ -1,16 +1,55 @@
 .maincards{
     display: flex;
-    flex: 3;
+    flex:1;
     margin-top: 20px;
+    margin-right: 20px;
+    height: 213px;
 }
 .leftcard{
     flex: 1;
 border-radius: 20px;
 background-color: rgb(240, 186, 156);
+padding: 10px;
 }
 .rightcard{
     flex: 1;
     margin-left: 20px;
 border-radius: 20px;
+padding: 10px;
 background-color: rgb(146, 199, 232);
+}
+.logo{
+    color: red;
+    font-size: 30px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+.details{
+    margin-top: 65px;
+text-align: left;
+line-height: 2px;
+}
+.tittle{
+    font-size: small;
+    padding-right: 20px;
+}
+.image{
+    height: 30px;
+    width: 70px;
+}
+.heading{
+    font-size: small;
+    padding-left: 7px;
+}
+
+.progress{
+    padding: 10px;
+}
+ .logo1 {
+    color: #20c4ad;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-right: 100px;
 }

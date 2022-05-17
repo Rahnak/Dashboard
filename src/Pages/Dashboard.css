@@ -1,8 +1,23 @@
 .dashboard{
-    flex: 15;
+    flex: 4;
+    display:flex;
 
 }
 .todo{
     margin: 20;
+    flex:4;
     display: flex;
+    position: sticky;
+}
+.maindiv{
+    width:90%;
+    flex: 3;
+    
+}
+.sidediv{
+    width:calc(100%-90%);
+    flex:1;
+}
+.charttitle{
+    
 }

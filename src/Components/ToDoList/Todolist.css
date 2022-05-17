@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     border: 1px solid rgb(53, 65, 94);
     background: rgb(42, 53, 80);
-    flex: 15;
+    
 }
 .col{
   
@@ -43,7 +43,8 @@ body {
     padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
-    flex: 4;
+    flex: 2;
+    
 }
   
   .taskBg {

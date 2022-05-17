@@ -7,13 +7,12 @@
     
     
   }
-.container{
+.maincontainer{
   display: flex;
-  margin-left: 0%;
-  padding-left: 0%;
   height: 100%;
-  max-width: 100%;
+  margin-left: 0%;
 }
+
 .others{
   flex: 15;
 

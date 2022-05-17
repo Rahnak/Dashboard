@@ -37,8 +37,8 @@ function Sidebar() {
 
 const Aside = styled.aside`
   background-color: rgb(53, 65, 94);
-  height: 100%;
-  width: 20px;
+  height:100vh 100%;
+  width: 10px;
   display: flex;
   flex:1;
   flex-direction: column;
@@ -64,9 +64,10 @@ const Aside = styled.aside`
     flex-direction: column;
     gap: 2rem;
     list-style-type: none;
-    padding-bottom:150px;
     align-items: center;
+    padding-bottom:300px;
     padding-left:0;
+    
     li {
       border-radius: 1rem;
       transition: 0.5s ease-in-out;

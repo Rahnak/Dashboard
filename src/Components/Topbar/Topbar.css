@@ -1,5 +1,5 @@
 
-.topContainer {
+.topcontainer {
   display:flex;
   position: sticky;
   top: 0%;
@@ -8,19 +8,24 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(53, 65, 94);
-  color: white;
+  
   
 }
 
 
 .profileContainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: right;
   color: #d0cfd4;
   position: relative;
- 
+}
+.prodetails{
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+  padding-top: 10px;
+
 }
 
 .profileContainer .profileIcon {
@@ -37,7 +42,28 @@
 
 .navbar-expand-lg{
   padding-left: 60px;
+}
+.navbar-toggler-icon{
+  background-color: white;
   
+}
+.navbar-toggler{
+  color: #121026;
+
+}
+.topicons{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.topicons:hover{
+  color: #ec4e6e
+}
+.topicons-active{
+  color: #ec4e6e
+}
+.topicons-active:hover{
+  color: #ef4c6d;
 }
 .profileContainer .profileIcon::before {
   position: absolute;
