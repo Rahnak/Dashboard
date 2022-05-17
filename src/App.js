@@ -1,31 +1,18 @@
 import React from "react";
 import "./App.css";
-
-import Sidebar from "./Components/Sidebar/Sidebar"
-
-import Dashboard from "./Pages/Dashboard";
-import Topbar from "./Components/Topbar/Topbar";
-
-
-
-
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import { BrowserRouter as Router,  Route,  Routes } from "react-router-dom";
+import Home from "./Pages/Home";
 function App() {
   return (
-<div className="App">
-   
-  
- 
- <Topbar/>
- <div className="maincontainer">
- <Sidebar/>
-<div className="others">
- <Dashboard/>
- 
- 
-</div>
-</div>
-   </div>
-   
+    <Router>
+<Routes>
+  <Route exact path='/' element={<Login/>}></Route>
+  <Route  path='/signup' element={<Signup/>}></Route>
+  <Route path='/home' element={<Home/>}></Route>
+</Routes>
+   </Router>
   );
 }
 

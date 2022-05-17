@@ -1,22 +1,13 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom'
 export default class AdminLogin extends Component {
-  constructor(props){
-  
-    super(props);
-    this.state={
-      email:'',
-      pass:''
 
-    }
-  
-  }
-  
 
-  handleClick = e => {
+  handleSubmit = e => {
     e.preventDefault();
 
-    alert("Goes to registration page");
+    alert("Login Successful");
+    window.location='/home'
   };
   render() {
     return (
@@ -28,7 +19,7 @@ export default class AdminLogin extends Component {
         <div className="card" >
           <div className="row g-0">
             <div className="col-md-6 col-lg-5 d-none d-md-block">
-            <img src={require('./download.png')} 
+            <img src={require('./login.jpg')} 
                 alt="download"
                 className="card-img-top" 
               />
@@ -40,24 +31,23 @@ export default class AdminLogin extends Component {
 
                   <div className="d-flex align-items-center mb-3 pb-1">
                     <i className="fas fa-cubes fa-2x me-3" ></i>
-                    <span className="h1 fw-bold mb-0">Project Management</span>
+                    <span className="h1 fw-bold mb-0">Project Dashboard</span>
                   </div>
-
                   <h5 className="fw-normal mb-3 pb-3" >Sign into your account</h5>
-
                   <div className="form-outline mb-4">
+                  <label className="form-label" htmlFor="validationEmail">Email address</label>
                     <input type="email" id="form2Example17"  className="form-control form-control-lg" />
-                    <label className="form-label" htmlFor="validationEmail">Email address</label>
                   </div>
-
                   <div className="form-outline mb-4">
+                  <label className="form-label" htmlFor="inputPassword6">Password</label>
                     <input type="password" id="inputPassword6" className="form-control form-control-lg" />
-                    <label className="form-label" htmlFor="inputPassword6">Password</label>
                   </div>
-
                   <div className="pt-1 mb-4">
                     <button className="btn btn-dark btn-lg btn-block" type="button" onClick={this.handleSubmit} >Login</button>
-                  </div>    
+                  </div>  
+                  <p className="mb-5 pb-lg-2" >Don't have an account?</p>
+                  <Link to ='/signup'>Register Here</Link>
+                     
                 </form>
 
               </div>
